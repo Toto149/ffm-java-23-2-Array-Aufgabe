@@ -20,6 +20,14 @@ public class ArrayUebungen {
         //Deklaration des 2. Arrays
         int[] numbers2 = {11,12,13,14,15,16,17,18,19,20};
 
+        System.out.println("Die Elementweise Addition der beiden Arrays ergibt: ");
+        int[] numbers3 = elementwiseArraySum(numbers, numbers2);
+
+        for (Integer number : numbers3){
+            System.out.println(number);
+        }
+
+
 
 
 
